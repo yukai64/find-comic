@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("../font/Lobster-1.4.otf") format("opentype");
+}
+
+/*
+h2 {
+    font-family: 'Lobster', cursive;
+}
+*/
+
+
+
+.main{
+    width: 90vw;
+    float: right;
+    overflow: hidden;
+    background-image: url(image/header3.jpg);
+}
+
+
+.topimg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.position {
+    height: 100vh;
+    width: 10vw;
+    position: fixed;
+    float: left;
+    overflow: hidden;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+nav a.lovebtn:hover {
+    background: #ffffff;
+    color: #e74c3c;
+}
+
+nav a.friendbtn:hover {
+    background: #ffffff;
+    color: #f1c40f;
+}
+
+nav a.comedybtn:hover {
+    background: #ffffff;
+    color: #2ecc71;
+}
+
+nav a.fantasybtn:hover {
+    background: #ffffff;
+    color: #3498db;
+}
+
+nav a.profilebtn:hover {
+    background: #ffffff;
+    color: #e67e22;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10%;
+    margin: auto;
+    font-family: "lobster";
+}
+
+.back{
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 10px;
+}
+
+.love {
+    text-align: center;
+    padding-top: 100px;
+    padding: 10%;
+    margin: auto;
+    background-color: #e74c3c;
+}
+
+.love-top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.friend {
+    text-align: center;
+    padding-top: 100px;
+    padding: 10%;
+    margin: auto;
+    background-color: #f1c40f;
+}
+
+.friend-top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.comedy {
+    text-align: center;
+    padding-top: 100px;
+    padding: 10%;
+    margin: auto;
+    background-color: #2ecc71;
+}
+
+.comedy-top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.fantasy {
+    text-align: center;
+    padding-top: 100px;
+    padding: 10%;
+    margin: auto;
+    background-color: #3498db;
+}
+
+.fantasy-top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.image {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 128px;
+    height: 176px;
+    transition: 0.3s;
+}
+
+.image:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+.profile {
+    text-align: center;
+    padding-top: 200px;
+    padding: 10%;
+    margin: auto;
+    background-color: #e67e22;
+}
+
+.profile-top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.profile-contents {
+    color: #ffffff;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
