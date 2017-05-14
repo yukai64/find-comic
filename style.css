@@ -20,13 +20,14 @@ h2 {
     width: 90vw;
     float: right;
     overflow: hidden;
-    background-image: url(image/header3.jpg);
+    background-color: #e74c3c;
 }
 
 
 .topimg{
     width: 100%;
     height: 100%;
+    margin-bottom: 0px;
 }
 
 
@@ -203,4 +204,5 @@ footer {
     font-size: 15px;
     text-align: center;
     color: #000000;
+    background-image: url(image/header3.jpg);
 }
