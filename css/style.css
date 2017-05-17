@@ -18,7 +18,7 @@ h1{
 }
 
 .main{
-    width: 95vw;
+    width: 92vw;
     float: right;
     overflow: hidden;
 }
@@ -27,7 +27,7 @@ h1{
 .top{
     background-image: url(../image/back-red.jpg);
     background-size: cover;
-    width: 95vw;
+    width: 92vw;
     height: 100vh;
 
 
@@ -36,7 +36,7 @@ h1{
 
 .position {
     height: 100vh;
-    width: 5vw;
+    width: 8vw;
     position: fixed;
     float: left;
     overflow: hidden;
